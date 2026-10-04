@@ -32,9 +32,10 @@ gemini extensions install /absolute/path/to/gemini-orderflow --consent --skip-se
 gemini extensions install https://github.com/Guguproapp/gugu-orderflow-gemini-extension
 ```
 
-This command is intentionally documented before Gallery listing. A GitHub
-Release and direct-install verification must be completed before it is claimed
-as available. Gallery indexing, if any, is separate.
+The GitHub installation source and `v0.1.0` Release are public. The package
+has been verified from a clean public clone. This controlled build environment
+cannot test the final install write to `~/.gemini/extensions`; Gallery indexing,
+if any, is separate.
 
 ## Safe request shape
 

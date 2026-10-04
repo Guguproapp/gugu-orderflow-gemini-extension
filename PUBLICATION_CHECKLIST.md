@@ -12,8 +12,8 @@
 
 ## External publication gates
 
-- [ ] Create a new public GitHub repository containing only `gemini-orderflow/`.
-- [ ] Publish a tagged GitHub Release.
+- [x] Create a new public GitHub repository containing only `gemini-orderflow/`.
+- [x] Publish the `v0.1.0` tagged GitHub Release.
 - [ ] Verify direct install from the public GitHub URL on a host that permits
   writes to `~/.gemini/extensions`.
 - [ ] Verify the installed free extension with a normal Gemini CLI session.
