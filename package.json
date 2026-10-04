@@ -1,0 +1,12 @@
+{
+  "name": "gugu-orderflow-gemini-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Free local Gemini CLI sales-order total calculator",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify:public": "node scripts/verify-public-package.mjs"
+  }
+}

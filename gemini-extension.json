@@ -1,0 +1,18 @@
+{
+  "name": "gugu-orderflow",
+  "version": "0.1.0",
+  "description": "Free, local-only validation of customer-ready sales-order totals with deterministic minor-unit math.",
+  "mcpServers": {
+    "gugu-orderflow": {
+      "command": "node",
+      "args": ["${extensionPath}/server.mjs"],
+      "cwd": "${workspacePath}"
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "excludeTools": [
+    "run_shell_command(git push)",
+    "run_shell_command(curl)",
+    "run_shell_command(wrangler)"
+  ]
+}
